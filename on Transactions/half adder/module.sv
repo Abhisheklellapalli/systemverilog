@@ -17,10 +17,8 @@ module top;
     dri.mbx=mbx;
     dri.intrf=inf;
     fork
-      repeat(4) begin
         gen.go();
         dri.go();
-      end
     join
   end
 endmodule
