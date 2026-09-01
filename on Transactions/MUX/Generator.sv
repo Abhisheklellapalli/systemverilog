@@ -9,7 +9,8 @@ class generator;
     tx.print("generator\n");
 
   endtask
-endclassinterface muxi;
+endclass
+interface muxi;
   logic a,b,c,d,e,f,g,h;
   logic [2:0]sel;
   logic yout;
